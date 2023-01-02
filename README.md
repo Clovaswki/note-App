@@ -6,15 +6,16 @@ This project is a Application of notes management, in which is done a CRUD syste
 
 The frontend was built with the **ReactJS** library. The Api was built with **expressJS** framework using mongoDB database. The application's styling was done with **pure CSS** only.
 
-## Settings and compilation
+## Settings
 
 Here are the necessary dependencies for the project:
 
 -web application
 
     npx create-react-app project_name
+    npm install axios
 
-- for to create the webpack server
+- for to create the webpack server and some important libraries.
 
 -Api
 
