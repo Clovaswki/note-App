@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sarabun&display=swap');
+
+.withoutNotes{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .7;
+    animation: showCard 500ms;
+}
+
+@keyframes showCard{
+    from{
+        transform:  scale(.5, .5);
+        opacity: 0;
+    }
+}
+
+.withoutNotes div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-withoutNotes{
+
+}
+.icon-withoutNotes img{
+    width: 200px;
+    height: 200px;
+}
+
+.withoutNotes p{
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    line-height: 21px;
+    font-weight: 700;
+    font-size: 24px;
+}
