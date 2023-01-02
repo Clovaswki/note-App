@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
+require('dotenv').config()
 
-const mongoDB = "mongodb://localhost/notes"
+const mongoDB = process.env.URL_DATABASE
 
 const connection = mongoose.connect(mongoDB, {
     useNewUrlParser: true,
