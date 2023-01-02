@@ -17,3 +17,24 @@ Here are the necessary dependencies for the project:
 - for to create the webpack server
 
 -Api
+
+    npm install express
+    npm install mongoose
+
+- for to structure the web server with the api for to create a CRUD system with the database.
+
+## compilation
+
+compilation of the project:
+
+-React App
+
+    path/.../frontend npm start
+
+-Web server
+
+    path/.../backend node index
+
+## Execution
+
+![My notes](https://i.ibb.co/sHWhYgc/note-app.png)
